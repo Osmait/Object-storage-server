@@ -10,7 +10,7 @@ import (
 )
 
 type Bucket struct {
-	Name string `json:name`
+	Name string `json:"name"`
 }
 
 func main() {
